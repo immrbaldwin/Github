@@ -10,7 +10,7 @@ This is a repository used by the visaops team to share various encrypted secrets
 1. Download the GPG software GPGTools from https://gpgtools.org/
 1. Generate your GPG Keys
 1. Open GPG Keychain
-1. Generate a new keypair. Defaults are fine but make sure to use a passphrase and use your Comcast E-mail address
+1. Generate a new keypair. Defaults are fine but make sure to use a passphrase and use your visaops e-mail address
 1. Export the public key saving the file as FirstName_LastName.asc in the pubkeys folder of the clone of this repo
 1. Push your new key to git (If you can't push, ask someone who can to add you)
 1. Ask a team member to recrypt the passwords files with your key included
