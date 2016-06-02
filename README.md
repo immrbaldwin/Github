@@ -26,6 +26,14 @@ cd secrets
 
 ```
 
+### Decrypt a file
+```
+cd secrets
+./decrypt.sh file.txt.gpg
+result is: new file named: DECRYPTED_file.txt
+
+```
+
 ### View a file
 ```
 cd secrets 
