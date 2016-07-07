@@ -2,7 +2,7 @@
 
 ABSPATH=$(cd "$(dirname "$0")"; pwd)
 cd $ABSPATH
-#git pull
+git pull
 for filename in `ls`; do gpg --import $filename; done
 
 GSS_TEAM=`./makegroup.sh`
