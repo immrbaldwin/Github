@@ -9,5 +9,5 @@ GSS_TEAM=`./makegroup.sh`
 echo "$GSS_TEAM"
 
 # This adds or replaces gpg group in the gpg config
-sed -i .bak '/group gssteam *=/d' ~/.gnupg/gpg.conf
+sed -i.bak '/group gssteam *=/d' ~/.gnupg/gpg.conf
 echo $GSS_TEAM >> ~/.gnupg/gpg.conf
