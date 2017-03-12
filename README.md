@@ -63,3 +63,4 @@ cd secrets
 This will pull any new keys, import them in your gpg store and encrypt the file with all the public keys giving access to any of the owners of said keys.
 
 This will need to be done for every file you want to grant access to.  (so all of them)
+# indexer
